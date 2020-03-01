@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+html , body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.teatop {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  top: 0.25px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+}
+
+.teatop img{
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 10%;
+  
+}
+
+.teatop nav a {
+  text-decoration: underline;
+  color: seashell;
+  margin-right: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Our Mission Section */
+
+.mission-wrapper {
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  top: 30px;
+}
+
+.mission-content {
+  width: 100%;
+  margin: auto;
+  height: inherit;
+  background-image: url(../images/img-mission-background.jpg);
+  background-size: cover;
+}
+
+
+.mission-content h2 { 
+  height: 100px;
+  padding-top: 10px;
+  position: absolute;
+  top: 265px;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.mission-content h4 {
+  height: 30px; 
+  padding-bottom: 40px;
+  position: absolute;
+  top: 330px;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+/* Tea of the Mont Section */
+
+.typeoftea {
+  position: relative;
+  width: 1000px;
+  margin: 30px 0;
+  padding: 0;
+  top: 50px;
+}
+
+.type-head {
+  line-height: 1.2rem;
+  margin-bottom: 40px;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.tea-images-row-1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.tea-images-row-2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.myrtle {
+  margin-right: 35px;
+}
+
+.bedfor {
+  margin-left: 35px;
+}
+
+/* Location Section */
+
+.location-container {
+  height: 570px;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  top:50px;
+  background-image: url(../images/img-locations-background.jpg);
+}
+
+.location-header h1 {
+  padding-top: 60px ;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.cards {
+  margin: 0 40px;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+  line-height: 2rem;
+  padding: 0;
+}
+
+/* Footer Section */
+.contact {
+  height: 200px;
+  position: relative;
+  top: 30px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 70px;
+}
